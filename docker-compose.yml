@@ -4,7 +4,7 @@ services:
   carlemany-backend:
     build:
       context: .
-      target: carlemany-backend-base
+      target: carlemany-backend-basegit status
     image: carlemany-backend-base
     volumes:
       - type: bind
